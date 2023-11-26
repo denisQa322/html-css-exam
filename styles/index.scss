@@ -46,7 +46,6 @@ button.free{
 }
 
 .first-screen{
-    height: 100vh;
     padding-bottom: 130px;
     header{
         padding: toVw(35px) toVw(0px);
@@ -753,7 +752,7 @@ button.free{
             &-arrows{
                 position: absolute;
                 top: toVw(126px);
-                left: toVw(590px);
+                left: toVw(560px);
                 width: toVw(80px);
                 height: toVw(80px);
                 padding: toVw(20px);

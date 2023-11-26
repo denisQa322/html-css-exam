@@ -41,7 +41,6 @@ button.free {
 }
 
 .first-screen {
-  height: 100vh;
   padding-bottom: 130px;
 }
 .first-screen header {
@@ -727,7 +726,7 @@ button.free {
 .news .container .news-slider-arrows {
   position: absolute;
   top: 6.5625vw;
-  left: 30.7291666667vw;
+  left: 29.1666666667vw;
   width: 4.1666666667vw;
   height: 4.1666666667vw;
   padding: 1.0416666667vw;
