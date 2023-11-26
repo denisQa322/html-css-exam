@@ -90,6 +90,7 @@ button {
   letter-spacing: -0.15625vw;
 }
 .first-screen .container .first-screen-info .first-screen-save {
+  cursor: pointer;
   display: flex;
   justify-content: center;
   margin-bottom: 6.3541666667vw;
