@@ -820,6 +820,8 @@ button.free{
             display: flex;
             .reviews-quotes{
                 margin-right: toVw(42px);
+                width: toVw(115px);
+                height: toVw(77px);
             }
             .reviews-slider{
                 margin-top: toVw(64px);
@@ -869,6 +871,7 @@ button.free{
                         }
                     }
                     &-arrows{
+                        cursor: pointer;
                         display: flex;
                         gap: toVw(16px);
                         position: absolute;

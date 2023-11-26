@@ -792,6 +792,8 @@ button.free {
 }
 .reviews .container .reviews-slider-wrapper .reviews-quotes {
   margin-right: 2.1875vw;
+  width: 5.9895833333vw;
+  height: 4.0104166667vw;
 }
 .reviews .container .reviews-slider-wrapper .reviews-slider {
   margin-top: 3.3333333333vw;
@@ -841,6 +843,7 @@ button.free {
   line-height: 1.3541666667vw;
 }
 .reviews .container .reviews-slider-wrapper .reviews-slider-item-arrows {
+  cursor: pointer;
   display: flex;
   gap: 0.8333333333vw;
   position: absolute;
