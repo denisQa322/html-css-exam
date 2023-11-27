@@ -1,0 +1,167 @@
+@media screen and (max-width: 430px) {
+  button.free {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 100px;
+    background: #1D1E25;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 108px;
+  }
+  .container {
+    width: 335px;
+  }
+  .first-screen .header .container {
+    position: relative;
+    flex-direction: column;
+  }
+  .first-screen .header .container .burger-menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 14px;
+  }
+  .first-screen .header .container .burger-menu img {
+    width: 24px;
+    height: 24px;
+  }
+  .first-screen .header .container .header-logo img {
+    width: 112px;
+    height: 52px;
+  }
+  .first-screen .header .container .header-menu {
+    display: none;
+  }
+  .first-screen .header .container .header-btn {
+    display: none;
+  }
+  .first-screen .first-screen-info .container {
+    flex-direction: column;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-background-color {
+    left: -51px;
+    top: -97px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-description hr {
+    width: 24px;
+    height: 0px;
+    margin-right: 8px;
+    margin-top: 11px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-description h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-try .try-input {
+    width: 219px;
+    display: flex;
+    height: 36px;
+    margin-right: 8px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-try .try-input input {
+    height: 36px;
+    width: 206px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #7E8492;
+    padding-bottom: 23px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-try .try-input input:-moz-placeholder-shown {
+    color: #7E8492;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__text-try .try-input input:placeholder-shown {
+    color: #7E8492;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images {
+    margin-top: 56px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images-background-color {
+    top: -64px;
+    left: 257px;
+    width: 197px;
+    height: 197px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .sales-report {
+    padding: 16px;
+    border-radius: 6.5px;
+    margin-bottom: 24px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .sales-report h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    margin-bottom: 13px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .sales-report img {
+    width: 294px;
+    height: 208px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .customer-growth {
+    padding: 9px 10px;
+    right: -38px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .customer-growth h4 {
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: -0.3px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .customer-growth img {
+    width: 98px;
+    height: 82px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics {
+    gap: 64px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics .sales {
+    padding: 16px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics .sales h4 {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics .sales-amount {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 9px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics .sales-last-year {
+    margin-right: 3px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics .sales-last-year img {
+    width: 9px;
+    height: 9px;
+    margin-top: 3px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics .sales-last-year .percent {
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-right: 5px;
+  }
+  .first-screen .first-screen-info .container .first-screen-info__images .statistics .sales-last-year .sales-last-year-text {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+  }
+}/*# sourceMappingURL=index.css.map */

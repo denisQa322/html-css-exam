@@ -62,7 +62,7 @@ button{
                 }
             }
             .header-btn{
-                .contact-us{
+                a{
                     border: none;
                     border-bottom: toVw(1px) solid black;
                     background: none;
@@ -82,6 +82,18 @@ button{
         .first-screen-info{
             margin-top: toVw(95px);
             text-align: center;
+            &-background-color{
+                position: absolute;
+                top: 0;
+                left: toVw(-51px);
+                width: toVw(551px);
+                height: toVw(551px);
+                border-radius: toVw(551px);
+                opacity: 0.13;
+                background-color: #FA7515;
+                filter: blur(toVw(110px));
+                z-index: -1;
+            }
             .first-screen-pricing{
                 color: #1463FF;
                 font-size: toVw(16px);
@@ -101,6 +113,17 @@ button{
                 display: flex;
                 justify-content: center;
                 margin-bottom: toVw(122px);
+                &-background-color{
+                    position: absolute;
+                    bottom: 0;
+                    right: toVw(-125px);
+                    width: toVw(525px);
+                    height: toVw(525px);
+                    background-color:#E2F8F0B2;
+                    border-radius: toVw(525px);
+                    filter: blur(toVw(90px));
+                    z-index: -1;
+                }
                 .toogle{
                     width: toVw(44px);
                     height: toVw(24px);
@@ -306,6 +329,10 @@ button{
                     position: absolute;
                     top: 0;
                     right: 0;
+                    img{
+                        width: toVw(24px);
+                        height: toVw(24px);
+                    }
                 }
                 &-header{
                     font-size: toVw(24px);

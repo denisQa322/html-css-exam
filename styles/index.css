@@ -46,6 +46,9 @@ button.free {
 .first-screen header {
   padding: 1.8229166667vw 0vw;
 }
+.first-screen header .container .burger-menu {
+  display: none;
+}
 .first-screen header .container .header-logo {
   margin-right: 31.7708333333vw;
 }
@@ -63,7 +66,7 @@ button.free {
   font-weight: 500;
   line-height: 1.3541666667vw;
 }
-.first-screen header .container .header-btn .contact-us {
+.first-screen header .container .header-btn a {
   border: none;
   border-bottom: 0.0520833333vw solid black;
   background: none;
@@ -73,7 +76,7 @@ button.free {
   display: flex;
   align-items: center;
 }
-.first-screen header .container .header-btn .contact-us img {
+.first-screen header .container .header-btn a img {
   margin-left: 0.2604166667vw;
   width: 0.8333333333vw;
   height: 0.8333333333vw;
@@ -154,9 +157,6 @@ button.free {
   font-size: 0.8333333333vw;
   font-weight: 400;
   line-height: 150%;
-}
-.first-screen .first-screen-info .container .first-screen-info__text-try .try-input input:focus {
-  border: none;
 }
 .first-screen .first-screen-info .container .first-screen-info__images {
   position: relative;
@@ -792,6 +792,8 @@ button.free {
 }
 .reviews .container .reviews-slider-wrapper .reviews-quotes {
   margin-right: 2.1875vw;
+}
+.reviews .container .reviews-slider-wrapper .reviews-quotes img {
   width: 5.9895833333vw;
   height: 4.0104166667vw;
 }

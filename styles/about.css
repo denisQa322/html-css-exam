@@ -56,7 +56,7 @@ button {
   font-weight: 500;
   line-height: 1.3541666667vw;
 }
-.first-screen .container header .header-btn .contact-us {
+.first-screen .container header .header-btn a {
   border: none;
   border-bottom: 0.0520833333vw solid black;
   background: none;
@@ -66,7 +66,7 @@ button {
   display: flex;
   align-items: center;
 }
-.first-screen .container header .header-btn .contact-us img {
+.first-screen .container header .header-btn a img {
   margin-left: 0.2604166667vw;
   width: 0.8333333333vw;
   height: 0.8333333333vw;

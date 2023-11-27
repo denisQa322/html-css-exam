@@ -50,6 +50,9 @@ button.free{
     header{
         padding: toVw(35px) toVw(0px);
         .container{
+            .burger-menu{
+                display: none;
+            }
             .header-logo{
                 margin-right: toVw(610px);
                 a{
@@ -70,7 +73,7 @@ button.free{
                 }
             }
             .header-btn{
-                .contact-us{
+                a{
                     border: none;
                     border-bottom: toVw(1px) solid black;
                     background: none;
@@ -153,9 +156,6 @@ button.free{
                                 font-size: toVw(16px);
                                 font-weight: 400;
                                 line-height: 150%;
-                            }
-                            &:focus{
-                                border: none;
                             }
                         }
                     }
@@ -820,8 +820,10 @@ button.free{
             display: flex;
             .reviews-quotes{
                 margin-right: toVw(42px);
-                width: toVw(115px);
-                height: toVw(77px);
+                img{
+                    width: toVw(115px);
+                    height: toVw(77px);
+                }
             }
             .reviews-slider{
                 margin-top: toVw(64px);

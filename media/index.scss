@@ -1,0 +1,177 @@
+@media screen and (max-width: 430px) {
+    button.free{
+        padding: 8px 16px;
+        border: none;
+        border-radius: 100px;
+        background: #1D1E25;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        width: 108px;
+    }
+    .container{
+        width: 335px;
+    }
+    .first-screen{
+        .header{
+            .container{
+                position: relative;
+                flex-direction: column;
+                .burger-menu{
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 14px;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+                .header-logo{
+                    img{
+                        width: 112px;
+                        height: 52px;
+                    }
+                }
+                .header-menu{
+                display: none;   
+                }
+                .header-btn{
+                    display: none;
+                }
+            }
+        }
+        .first-screen-info{
+            .container{
+                flex-direction: column;
+                .first-screen-info__text{
+                    &-background-color{
+                        left: -51px;
+                        top: -97px;
+                    }
+                    &-header{
+                        h1{
+                            font-size: 32px;
+                            font-weight: 700;
+                            line-height: 40px;
+                            letter-spacing: -1px;
+                        }
+                    }
+                    &-description{
+                        hr{
+                            width: 24px;
+                            height: 0px;
+                            margin-right: 8px;
+                            margin-top: 11px;
+                        }
+                        h4{
+                            font-size: 16px;
+                            font-weight: 600;
+                            line-height: 24px;
+                        }
+                    }
+                    &-try{
+                        .try-input{
+                            width: 219px;
+                            display: flex;
+                            height: 36px;
+                            margin-right: 8px;
+                            input{
+                                height: 36px;
+                                width: 206px;
+                                background: none;
+                                border: none;
+                                border-bottom: 1px solid #7E8492;
+                                padding-bottom: 23px;
+                                &:placeholder-shown{
+                                    color: #7E8492;
+                                    font-size: 14px;
+                                    font-weight: 500;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .first-screen-info__images{
+                    margin-top: 56px;
+                    &-background-color{
+                        top: -64px;
+                        left: 257px;
+                        width: 197px;
+                        height: 197px;
+                    }
+                    .sales-report{
+                        padding: 16px;
+                        border-radius: 6.5px;
+                        margin-bottom: 24px;
+                        h4{
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 24px;
+                            letter-spacing: -0.4px;
+                            margin-bottom: 13px;
+                        }
+                        img{
+                            width: 294px;
+                            height: 208px;
+                        }
+                    }
+                    .customer-growth{
+                        padding: 9px 10px;
+                        right: -38px;
+                        h4{
+                            font-size: 9px;
+                            font-weight: 700;
+                            line-height: 17px;
+                            letter-spacing: -0.3px;
+                        }
+                        img{
+                            width: 98px;
+                            height: 82px;
+                        }
+                    }
+                    .statistics{
+                        gap: 64px;
+                        .sales{
+                            padding: 16px;
+                            h4{
+                                font-size: 11px;
+                                font-weight: 600;
+                                line-height: 16px;
+                            }
+                            &-amount{
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 21px; 
+                                margin-bottom: 9px;
+                            }
+                            &-last-year{
+                                margin-right: 3px;
+                                img{
+                                    width: 9px;
+                                    height: 9px;
+                                    margin-top: 3px;
+                                }
+                                .percent{
+                                    font-size: 11px;
+                                    font-weight: 600;
+                                    line-height: 16px;
+                                    margin-right: 5px;
+                                }
+                                .sales-last-year-text{
+                                    font-size: 11px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    letter-spacing: -0.4px;
+                                }  
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

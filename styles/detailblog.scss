@@ -62,7 +62,7 @@ button{
                 }
             }
             .header-btn{
-                .contact-us{
+                a{
                     border: none;
                     border-bottom: toVw(1px) solid black;
                     background: none;
@@ -79,7 +79,130 @@ button{
                 }
             }
         }
-        
+        .first-screen-header{
+            padding: toVw(80px) toVw(100px) toVw(48px) toVw(130px);
+            font-size: toVw(72px);
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            letter-spacing: toVw(-3px);
+        }
+    }
+}
+.blog{
+    padding: toVw(32px) 0 toVw(160px);
+    .container{
+        width: toVw(940px);
+        margin: auto;
+        flex-direction: column;
+        .blog-info{
+            &-posted{
+                display: flex;
+                margin-bottom: toVw(24px);
+                &__person{
+                    display: flex;
+                    &-img{
+                        margin-right: toVw(24px);
+                        img{
+                            width: toVw(56px);
+                            height: toVw(56px);
+                        }
+                    }
+                    &-info{
+                        margin-right: toVw(375px);
+                        &-name{
+                            font-size: toVw(18px);
+                            font-weight: 600;
+                            line-height: toVw(26px);
+                            margin-bottom: toVw(4px);
+                        }
+                        &-job{
+                            color: #7E8492;
+                            font-size: toVw(16px);
+                            font-weight: 500;
+                            line-height: toVw(26px);
+                        }
+                    }
+                }
+                &-date{
+                    color: #7E8492;
+                    font-size: toVw(18px);
+                    font-weight: 500;
+                    line-height: 150%;
+                    padding-top: toVw(29px);
+                }
+            }
+            &-img{
+                margin-bottom: toVw(80px);
+                img{
+                    width: toVw(940px);
+                    height: toVw(545px);
+                }
+            }
+            &-description{
+                font-size: toVw(18px);
+                font-weight: 400;
+                line-height: toVw(32px);
+                margin-bottom: toVw(56px);
+            }
+            &-approach{
+                font-size: toVw(40px);
+                font-weight: 600;
+                line-height: 120%;
+                margin-bottom: toVw(24px);
+            }
+            &-text{
+                font-size: toVw(18px);
+                font-weight: 400;
+                line-height: toVw(32px); 
+                margin-bottom: toVw(56px);
+            }
+        }
+        .blogger{
+            display: flex;
+            .blogger-img{
+                margin-right: toVw(48px);
+                img{
+                    width: toVw(200px);
+                    height: toVw(200px);
+                }
+            }
+            .blogger-info{
+                &-socials{
+                    display: flex;
+                    gap: toVw(32px);
+                    margin-bottom: toVw(14px);
+                    li{
+                        font-size: toVw(16px);
+                        font-weight: 500;
+                        line-height: toVw(26px);
+                        img{
+                            width: toVw(32px);
+                            height: toVw(32px);
+                        }
+                    }
+                }
+                .blogger-written{
+                    color: #7E8492;
+                    font-size: toVw(16px);
+                    font-weight: 400;
+                    line-height: toVw(24px);
+                    margin-bottom: toVw(16px);
+                }
+                .blogger-job{
+                    color: #7E8492;
+                    font-size: toVw(16px);
+                    font-weight: 500;
+                    line-height: toVw(26px);
+                    margin-bottom: toVw(16px);
+                }
+                &-description{
+                    font-size: toVw(18px);
+                    font-weight: 400;
+                    line-height: toVw(32px);
+                }
+            }
+        }
     }
 }
 
@@ -101,18 +224,6 @@ button{
                 margin-bottom: toVw(45px);
                 &-info{
                     position: relative;
-                    &-background{
-                        position: absolute;
-                        top: toVw(-69px);
-                        left: toVw(-54px);
-                        width: toVw(621px);
-                        height: toVw(621px);
-                        border-radius: toVw(621px);
-                        opacity: 0.13;
-                        background-color: #FA7515;
-                        filter: blur(toVw(110px));
-                        z-index: -1;
-                    }
                     &-header{
                         font-size: toVw(64px);
                         font-weight: 600;
@@ -132,17 +243,6 @@ button{
                 }
                 &-button{
                     position: relative;
-                    &-background{
-                        position: absolute;
-                        top: toVw(125px);
-                        right: toVw(-265px);
-                        width: toVw(525px);
-                        height: toVw(525px);
-                        background-color:#E2F8F0B2;
-                        border-radius: toVw(525px);
-                        filter: blur(toVw(90px));
-                        z-index: -1;
-                    }
                     button{
                         margin-top: toVw(77.5px);
                         padding: toVw(16px) toVw(32px);

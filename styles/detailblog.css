@@ -56,7 +56,7 @@ button {
   font-weight: 500;
   line-height: 1.3541666667vw;
 }
-.first-screen .container header .header-btn .contact-us {
+.first-screen .container header .header-btn a {
   border: none;
   border-bottom: 0.0520833333vw solid black;
   background: none;
@@ -66,10 +66,131 @@ button {
   display: flex;
   align-items: center;
 }
-.first-screen .container header .header-btn .contact-us img {
+.first-screen .container header .header-btn a img {
   margin-left: 0.2604166667vw;
   width: 0.8333333333vw;
   height: 0.8333333333vw;
+}
+.first-screen .container .first-screen-header {
+  padding: 4.1666666667vw 5.2083333333vw 2.5vw 6.7708333333vw;
+  font-size: 3.75vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -0.15625vw;
+}
+
+.blog {
+  padding: 1.6666666667vw 0 8.3333333333vw;
+}
+.blog .container {
+  width: 48.9583333333vw;
+  margin: auto;
+  flex-direction: column;
+}
+.blog .container .blog-info-posted {
+  display: flex;
+  margin-bottom: 1.25vw;
+}
+.blog .container .blog-info-posted__person {
+  display: flex;
+}
+.blog .container .blog-info-posted__person-img {
+  margin-right: 1.25vw;
+}
+.blog .container .blog-info-posted__person-img img {
+  width: 2.9166666667vw;
+  height: 2.9166666667vw;
+}
+.blog .container .blog-info-posted__person-info {
+  margin-right: 19.53125vw;
+}
+.blog .container .blog-info-posted__person-info-name {
+  font-size: 0.9375vw;
+  font-weight: 600;
+  line-height: 1.3541666667vw;
+  margin-bottom: 0.2083333333vw;
+}
+.blog .container .blog-info-posted__person-info-job {
+  color: #7E8492;
+  font-size: 0.8333333333vw;
+  font-weight: 500;
+  line-height: 1.3541666667vw;
+}
+.blog .container .blog-info-posted-date {
+  color: #7E8492;
+  font-size: 0.9375vw;
+  font-weight: 500;
+  line-height: 150%;
+  padding-top: 1.5104166667vw;
+}
+.blog .container .blog-info-img {
+  margin-bottom: 4.1666666667vw;
+}
+.blog .container .blog-info-img img {
+  width: 48.9583333333vw;
+  height: 28.3854166667vw;
+}
+.blog .container .blog-info-description {
+  font-size: 0.9375vw;
+  font-weight: 400;
+  line-height: 1.6666666667vw;
+  margin-bottom: 2.9166666667vw;
+}
+.blog .container .blog-info-approach {
+  font-size: 2.0833333333vw;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 1.25vw;
+}
+.blog .container .blog-info-text {
+  font-size: 0.9375vw;
+  font-weight: 400;
+  line-height: 1.6666666667vw;
+  margin-bottom: 2.9166666667vw;
+}
+.blog .container .blogger {
+  display: flex;
+}
+.blog .container .blogger .blogger-img {
+  margin-right: 2.5vw;
+}
+.blog .container .blogger .blogger-img img {
+  width: 10.4166666667vw;
+  height: 10.4166666667vw;
+}
+.blog .container .blogger .blogger-info-socials {
+  display: flex;
+  gap: 1.6666666667vw;
+  margin-bottom: 0.7291666667vw;
+}
+.blog .container .blogger .blogger-info-socials li {
+  font-size: 0.8333333333vw;
+  font-weight: 500;
+  line-height: 1.3541666667vw;
+}
+.blog .container .blogger .blogger-info-socials li img {
+  width: 1.6666666667vw;
+  height: 1.6666666667vw;
+}
+.blog .container .blogger .blogger-info .blogger-written {
+  color: #7E8492;
+  font-size: 0.8333333333vw;
+  font-weight: 400;
+  line-height: 1.25vw;
+  margin-bottom: 0.8333333333vw;
+}
+.blog .container .blogger .blogger-info .blogger-job {
+  color: #7E8492;
+  font-size: 0.8333333333vw;
+  font-weight: 500;
+  line-height: 1.3541666667vw;
+  margin-bottom: 0.8333333333vw;
+}
+.blog .container .blogger .blogger-info-description {
+  font-size: 0.9375vw;
+  font-weight: 400;
+  line-height: 1.6666666667vw;
 }
 
 .footer {
@@ -95,18 +216,6 @@ button {
 .footer-wrapper .container .footer-top-info {
   position: relative;
 }
-.footer-wrapper .container .footer-top-info-background {
-  position: absolute;
-  top: -3.59375vw;
-  left: -2.8125vw;
-  width: 32.34375vw;
-  height: 32.34375vw;
-  border-radius: 32.34375vw;
-  opacity: 0.13;
-  background-color: #FA7515;
-  filter: blur(5.7291666667vw);
-  z-index: -1;
-}
 .footer-wrapper .container .footer-top-info-header {
   font-size: 3.3333333333vw;
   font-weight: 600;
@@ -125,17 +234,6 @@ button {
 }
 .footer-wrapper .container .footer-top-button {
   position: relative;
-}
-.footer-wrapper .container .footer-top-button-background {
-  position: absolute;
-  top: 6.5104166667vw;
-  right: -13.8020833333vw;
-  width: 27.34375vw;
-  height: 27.34375vw;
-  background-color: rgba(226, 248, 240, 0.6980392157);
-  border-radius: 27.34375vw;
-  filter: blur(4.6875vw);
-  z-index: -1;
 }
 .footer-wrapper .container .footer-top-button button {
   margin-top: 4.0364583333vw;
