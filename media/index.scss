@@ -12,6 +12,7 @@
     }
     .container{
         width: 335px;
+        margin: auto;
     }
     .first-screen{
         .header{
@@ -79,7 +80,7 @@
                             margin-right: 8px;
                             input{
                                 height: 36px;
-                                width: 206px;
+                                width: 200px;
                                 background: none;
                                 border: none;
                                 border-bottom: 1px solid #7E8492;
@@ -134,8 +135,45 @@
                     }
                     .statistics{
                         gap: 64px;
+                        padding: 16px;
+                        height: 96px;
+                        border-radius: 6px;
                         .sales{
-                            padding: 16px;
+                            h4{
+                                font-size: 11px;
+                                font-weight: 600;
+                                line-height: 16px;
+                                margin-bottom: 2px;
+                            }
+                            &-amount{
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 21px; 
+                                margin-bottom: 9px;
+                            }
+                            &-last-year{
+                                margin-right: 3px;
+                                img{
+                                    width: 9px;
+                                    height: 9px;
+                                    margin-top: 3px;
+                                }
+                                .percent{
+                                    font-size: 11px;
+                                    font-weight: 600;
+                                    line-height: 16px;
+                                    margin-right: 5px;
+                                }
+                                .sales-last-year-text{
+                                    font-size: 11px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 18px;
+                                    letter-spacing: -0.4px;
+                                }  
+                            }
+                        }
+                        .marketing{
                             h4{
                                 font-size: 11px;
                                 font-weight: 600;
@@ -171,6 +209,603 @@
                         }
                     }
                 }
+            }
+        }
+    }
+    .content{
+        padding: 40px 0;
+        .container{
+            flex-direction: column;
+            .content-info{
+                .content-header{
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 34px;
+                    margin-bottom: 16px;
+                }
+                .content-description{
+                    width: 335px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    margin-bottom: 32px;
+                }
+            }
+            .content-advantages{
+                flex-direction: column;
+                gap: 24px;
+                &__advantage{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    width: 335px;
+                    &-icon{
+                        img{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                    &-header{
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 26px;
+                    }
+                    &-description{
+                        width: 335px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .features{
+        padding: 56px 0 30px;
+        .container{
+            .features-info{
+                flex-direction: column;
+                &__images{
+                    margin-bottom: 32px;
+                    &-main-img{
+                        img{
+                            width: 335px;
+                            height: 374px;
+                        }
+                        &__inner{
+                            bottom: 20px;
+                            right: 20px;
+                            &-statistic{
+                                width: 177px;
+                                height: 181px;
+                                padding: 10px;
+                                &-header{
+                                    font-size: 10px;
+                                    font-weight: 600;
+                                    line-height: 15px;
+                                }
+                                &-income{
+                                    margin-bottom: 14px;
+                                    .income-graph{
+                                        margin-right: 16px;
+                                        img{
+                                            width: 58px;
+                                            height: 53px;
+                                        }
+                                    }
+                                    .income-info{
+                                        &-header{
+                                            font-size: 6px;
+                                            font-weight: 500;
+                                            line-height: 150%;
+                                            margin-bottom: 4px;
+                                        }
+                                        &-amount{
+                                            margin-bottom: 5px;
+                                            &-sum{
+                                                font-size: 14px;
+                                                font-weight: 700;
+                                                line-height: 120%;
+                                                margin-right: 7px;
+                                            }
+                                            &-percent{
+                                                font-size: 6px;
+                                                font-weight: 500;
+                                                line-height: 150%; 
+                                                align-items: center;
+                                                &-icon{
+                                                    img{
+                                                        width: 12px;
+                                                        height: 12px;
+                                                    }
+                                                }
+                                                
+                                            }
+                                        }
+                                        &-text{
+                                            font-size: 5px;
+                                        }
+                                    }
+                                }
+                                hr{
+                                    border: 0.446px solid #EDEDED;
+                                    margin-bottom: 16px;
+                                }
+                                &-expanse{
+                                    .expanse-graph{
+                                        margin-right: 16px;
+                                        img{
+                                            width: 58px;
+                                            height: 53px;
+                                        }
+                                    }
+                                    .expanse-info{
+                                        &-header{
+                                            font-size: 6px;
+                                            font-weight: 500;
+                                            line-height: 150%;
+                                            margin-bottom: 4px;
+                                        }
+                                        &-amount{
+                                            margin-bottom: 5px;
+                                            &-sum{
+                                                font-size: 14px;
+                                                font-weight: 700;
+                                                line-height: 120%;
+                                                margin-right: 7px;
+                                            }
+                                            &-percent{
+                                                font-size: 6px;
+                                                font-weight: 500;
+                                                line-height: 150%; 
+                                                align-items: center;
+                                                &-icon{
+                                                    img{
+                                                        width: 12px;
+                                                        height: 12px;
+                                                    }
+                                                }
+                                                
+                                            }
+                                        }
+                                        &-text{
+                                            font-size: 5px;
+                                        }
+                                    }
+                                }
+                                .more-button{
+                                    top: 13px;
+                                    right: 11px;
+                                    button{
+                                        img{
+                                            width: 11px;
+                                            height: 11px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .features-info__text{
+                    &-header{
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 34px;
+                        margin-bottom: 16px;
+                    }
+                    &-description{
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        margin-bottom: 24px;
+                    }
+                    &-list{
+                        gap: 16px;
+                        li{
+                            width: 296px;
+                            gap: 8px;
+                            font-size: 14px;
+                            font-weight: 500;
+                            line-height: 20px;
+                            img{
+                                width: 24px;
+                                height: 24px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .strength{
+        .container{
+            .strength-numbers{
+                display: grid;
+                grid-template-columns:  repeat(2, 160px);
+                grid-gap: 16px;
+                margin-bottom: 32px;
+                &__number{
+                    width: 160px;
+                    height: 98px;
+                    &-header{
+                        font-size: 32px;
+                        font-weight: 600;
+                        line-height: 42px;
+                        letter-spacing: -1px;
+                        margin-bottom: 8px;
+                    }
+                    &-description{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px; 
+                    }
+                }
+                &__separator{
+                    display: none;
+                }
+            }
+            .strength-image{
+                margin-bottom: 40px;
+                img{
+                    width: 335px;
+                    height: 162px;
+                }
+            }
+            .strength-info{
+                flex-direction: column;
+                &__header{
+                    width: 335px;
+                    font-size: 24px;
+                    font-weight: 600;
+                    line-height: 34px; 
+                    margin-bottom: 16px;
+                }   
+                &__description{
+                    width: 335px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+    .partners{
+        border: none;
+        padding: 56px 0;
+        width: 335px;
+        .container{
+            flex-direction: column;
+            padding: 0;
+            .partners-info{
+                margin-bottom: 32px;
+                &__header{
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 32px;
+                    margin-bottom: 8px;
+                }
+                &__description{
+                    width: 231px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                }
+            }
+            .partners-logos{
+                width: 263px;
+                gap: 13px;
+                flex-wrap: wrap;
+                &__logo{
+                    width: 125px;
+                    height: 70px;
+                    border-radius: 13px;
+                    img{
+                        width: 75px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .services{
+        padding: 56px 0;
+        .container{
+            .services-header{
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 34px;
+                margin-bottom: 16px;
+            }
+            .services-description{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 32px;
+            }
+            .services-list{
+                flex-direction: column;
+                gap: 24px;
+                &-item{
+                    width: 335px;
+                    gap: 16px;
+                    &-img{
+                        img{
+                            height: 216px;
+                            width: 150px;
+                        }
+                        &__inner-icon{
+                            padding: 8px;
+                            width: 40px;
+                            height: 40px;
+                            top: 12px;
+                            right: 12px;
+                            img{
+                                width: 24px;
+                                height: 24px;
+                            }
+                        }
+                    }
+                    &-info{
+                        padding: 0;
+                        &__header{
+                            width: 159px;
+                            font-size: 16px;
+                            line-height: 24px; 
+                            margin-bottom: 8px;
+                        }
+                        &__description{
+                            width: 159px;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .news{
+        padding: 0px;
+        padding-bottom: 39px;
+        .container{
+            .news-header{
+                text-align: start;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 34px;
+                margin-bottom: 16px;
+            }
+            .news-text{
+                text-align: start;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px; 
+                margin-bottom: 32px;
+            }
+            .news-slider{
+                gap: 16px;
+                &-arrows{
+                    padding: 8px;
+                    width: 40px;
+                    height: 40px;
+                    top: 76px;
+                    left: 286px;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+                &-item{
+                    &__img{
+                        margin-bottom: 8px;
+                        img{
+                            width: 299px;
+                            height: 191px;
+                        }
+                    }
+                    &__published{
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        margin-bottom: 8px;
+                    }
+                    &__header{
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    .reviews{
+        padding: 17px 0 80px;
+        .container{
+            .reviews-text{
+                flex-direction: column;
+                margin-bottom: 58px;
+                &-header{
+                    width: 247px;
+                    font-size: 24px;
+                    line-height: 34px; 
+                    margin-bottom: 16px;
+                }
+                &-description{
+                    width: 229px;
+                    font-size: 14px;
+                    line-height: 20px;
+                }
+            }
+            .reviews-slider-wrapper{
+                .reviews-quotes{
+                    img{
+                        width: 32px;
+                        height: 21px;
+                    }
+                }
+                .reviews-slider{
+                    margin-top: 24px;
+                    &-item{
+                        &-rating{
+                            gap: 8px;
+                            font-size: 14px;
+                            line-height: 20px;
+                            margin-bottom: 11px;
+                            img{
+                                width: 16px;
+                                height: 16px;
+                            }
+                        }
+                        &-info{
+                            font-size: 18px;
+                            font-weight: 600;
+                            line-height: 26px;
+                            margin-bottom: 8px;
+                        }
+                        &-person{
+                            &-img{
+                                margin-right: 12px;
+                                img{
+                                    width: 40px;
+                                    height: 40px;
+                                }
+                            }
+                            &-info{
+                                &-name{
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    margin-bottom: 4px;
+                                }
+                                &-work{
+                                    font-size: 12px;
+                                    line-height: 26px;
+                                }
+                            }
+                        }
+                        &-arrows{
+                            gap: 8px;
+                            bottom: 14px;
+                            .left-arrow{
+                                padding: 6px;
+                                width: 28px;
+                                height: 28px;
+                                img{
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                            }
+                            .right-arrow{
+                                padding: 6px;
+                                width: 28px;
+                                height: 28px;
+                                img{
+                                    width: 16px;
+                                    height: 16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        padding: 51px 0 30px;
+        .container{
+            .footer-top{
+                flex-direction: column;
+                &-info{
+                    &-background{
+                        top: -26px;
+                        left: -31px;
+                        width: 221px;
+                        height: 221px;
+                    }
+                    &-header{
+                        font-size: 24px;
+                        line-height: 34px;
+                    }
+                    &-description{
+                        margin-bottom: 24px;
+                        hr{
+                            width: 35px;
+                            margin-right: 8px;
+                        }
+                        &-text{
+                            font-size: 16px;
+                            line-height: 24px;
+                        }
+                    }
+                }
+                &-button{
+                    margin-bottom: 56px;
+                    &-background{
+                        top: 40px;
+                        right: 12px;
+                    }
+                    button{
+                        margin: 0;
+                    }
+                }
+            }
+            .footer-bottom{
+                flex-direction: column;
+                &-logo-text{
+                    .footer-bottom-logo{
+                        margin-bottom: 9px;
+                        img{
+                            width: 95px;
+                            height: 44px;
+                        }
+                    }
+                    .footer-bottom-text{
+                        color: #7E8492;
+                        font-size: 14px;
+                        line-height: 20px;
+                        margin-bottom: 56px;
+                    }
+                }
+                &-navigation{
+                    display: none;
+                }
+            }
+            hr{
+                margin-bottom: 40px;
+            }
+            .footer-socials{
+                margin: auto;
+                display: flex;
+                gap: 24px;
+                margin-bottom: 24px;
+                li{
+                    a{
+                        img{
+                            width: 24px;
+                            height: 24px;
+                        }
+                    }
+                }
+            }
+            .footer-policy{
+                display: flex;
+                gap: 24px;
+                margin-bottom: 24px;
+                li{
+                    a{
+                        color: #7E8492;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                    }
+                }
+            }
+            .footer-rights{
+                color: #7E8492;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
             }
         }
     }

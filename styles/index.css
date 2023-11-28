@@ -311,6 +311,7 @@ button.free {
   margin-bottom: 1.25vw;
 }
 .content .container .content-info .content-description {
+  width: 34.375vw;
   color: #7E8492;
   font-size: 0.9375vw;
   font-weight: 500;
@@ -339,6 +340,7 @@ button.free {
   margin-bottom: 1.25vw;
 }
 .content .container .content-advantages__advantage-description {
+  width: 25.0520833333vw;
   color: #7E8492;
   font-size: 0.8333333333vw;
   font-style: normal;
@@ -508,6 +510,7 @@ button.free {
   gap: 1.6666666667vw;
 }
 .features .container .features-info .features-info__text-list li {
+  width: 18.3854166667vw;
   display: flex;
   gap: 0.8333333333vw;
   font-size: 0.9375vw;
@@ -528,7 +531,6 @@ button.free {
 }
 .strength .container .strength-numbers {
   display: flex;
-  justify-content: space-between;
   gap: 3.75vw;
   align-items: center;
   margin-bottom: 4.1666666667vw;
@@ -650,19 +652,19 @@ button.free {
   justify-content: space-between;
   gap: 2.9166666667vw;
 }
-.services .container .services-list .services-list-item {
+.services .container .services-list-item {
   width: 29.5833333333vw;
   display: flex;
 }
-.services .container .services-list .services-list-item-img {
+.services .container .services-list-item-img {
   margin-right: 3.125vw;
   position: relative;
 }
-.services .container .services-list .services-list-item-img img {
+.services .container .services-list-item-img img {
   width: 12.5vw;
   height: 14.21875vw;
 }
-.services .container .services-list .services-list-item-img__inner-icon {
+.services .container .services-list-item-img__inner-icon {
   position: absolute;
   top: 0.8333333333vw;
   right: 0.8333333333vw;
@@ -673,22 +675,22 @@ button.free {
   background-color: rgba(22, 26, 52, 0.6);
   z-index: 10;
 }
-.services .container .services-list .services-list-item-img__inner-icon img {
+.services .container .services-list-item-img__inner-icon img {
   width: 1.25vw;
   height: 1.25vw;
 }
-.services .container .services-list .services-list-item-info {
+.services .container .services-list-item-info {
   padding: 0.9114583333vw 0;
   width: 13.9583333333vw;
 }
-.services .container .services-list .services-list-item-info__header {
+.services .container .services-list-item-info__header {
   font-size: 1.6666666667vw;
   font-weight: 600;
   line-height: 2.1875vw;
   letter-spacing: -0.0520833333vw;
   margin-bottom: 1.25vw;
 }
-.services .container .services-list .services-list-item-info__description {
+.services .container .services-list-item-info__description {
   color: #7E8492;
   font-size: 0.8333333333vw;
   font-weight: 500;
@@ -976,6 +978,9 @@ button.free {
   height: 0.0520833333vw;
   background-color: #CED1D8;
   margin-bottom: 2.3958333333vw;
+}
+.footer .container ul {
+  display: none;
 }
 .footer .container .footer-rights {
   color: #AFB3BB;

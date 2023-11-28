@@ -320,6 +320,7 @@ button.free{
                 margin-bottom: toVw(24px);
             }
             .content-description{
+                width: toVw(660px);
                 color: #7E8492;
                 font-size: toVw(18px);
                 font-weight: 500;
@@ -349,6 +350,7 @@ button.free{
                     margin-bottom: toVw(24px);
                 }
                 &-description{
+                    width: toVw(481px);
                     color: #7E8492;
                     font-size: toVw(16px);
                     font-style: normal;
@@ -530,6 +532,7 @@ button.free{
                     flex-direction: column;
                     gap: toVw(32px);
                     li{
+                        width: toVw(353px);
                         display: flex;
                         gap: toVw(16px);
                         font-size: toVw(18px);
@@ -553,7 +556,6 @@ button.free{
         flex-direction: column;
         .strength-numbers{
             display: flex;
-            justify-content: space-between;
             gap: toVw(72px);
             align-items: center;
             margin-bottom: toVw(80px);
@@ -676,7 +678,7 @@ button.free{
             flex-wrap: wrap;
             justify-content: space-between;
             gap: toVw(56px);
-            .services-list-item{
+            &-item{
                 width: toVw(568px);
                 display: flex;
                 &-img{
@@ -1008,6 +1010,9 @@ button.free{
             height: toVw(1px);
             background-color: #CED1D8;
             margin-bottom: toVw(46px);
+        }
+        ul{
+            display: none;
         }
         .footer-rights{
             color: #AFB3BB;
