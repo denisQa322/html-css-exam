@@ -920,6 +920,7 @@ button.free {
   border: 0.0520833333vw solid black;
 }
 .footer .container .footer-top-info-description-text {
+  width: 28.28125vw;
   font-size: 1.25vw;
   font-weight: 600;
   line-height: 1.7708333333vw;
